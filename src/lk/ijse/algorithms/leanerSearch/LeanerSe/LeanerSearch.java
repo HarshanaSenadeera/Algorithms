@@ -9,8 +9,10 @@ public class LeanerSearch {
 
         for (int i = 0; i < arr.length - 1; i++) {
             if (target == arr[i]){
+                System.out.println("Your target is in: "+i);
                 return i;
             }
+            System.out.println("pass index are: "+i);
         }
         return -1;
     }
