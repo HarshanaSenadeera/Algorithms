@@ -4,7 +4,7 @@ public class BinarySearchMain {
 
     public static void main(String[] args) {
 
-        int [] arr = new int[100];
+        int [] arr = new int[1000];
         int target= 500;
 
         for (int i = 0; i < arr.length; i++) {
@@ -13,6 +13,8 @@ public class BinarySearchMain {
 
         BinarySearch binarySearch = new BinarySearch();
 
-        binarySearch.search();
+        int search = binarySearch.search(arr, target);
+
+        System.out.println("Your target "+target+" is in: "+search);
     }
 }

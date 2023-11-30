@@ -20,14 +20,17 @@ public class BinarySearch {
         while (start <= end){
             mid=(start+end)/2;
 
-            if (target == mid){
+            int i = arr[mid];
+            System.out.println("pass values are: "+i);
+            if (target == arr[mid]){
                 return  mid;
-            } else if (mid < target) {
+            } else if ( arr[mid] < target) {
                 start=mid+1;
             }else {
                 end=mid-1;
             }
         }
+
         return -1;
     }
 }
