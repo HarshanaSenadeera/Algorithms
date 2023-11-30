@@ -16,4 +16,14 @@ public class Stack {
         arr[++top]=num;
     }
 
+    public void print(){
+
+        System.out.print("[");
+        for (int i = 0; i <=top; i++) {
+            System.out.println(arr[i]+" ,");
+        }
+
+        System.out.println("\b]");
+    }
+
 }
