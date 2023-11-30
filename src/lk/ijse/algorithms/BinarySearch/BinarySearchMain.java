@@ -15,6 +15,6 @@ public class BinarySearchMain {
 
         int search = binarySearch.search(arr, target);
 
-        System.out.println("Your target "+target+" is in: "+search);
+        System.out.println("Your target "+target+" is in "+search);
     }
 }
