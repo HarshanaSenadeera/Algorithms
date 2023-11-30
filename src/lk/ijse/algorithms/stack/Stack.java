@@ -16,6 +16,13 @@ public class Stack {
         arr[++top]=num;
     }
 
+    public int pop(){
+        if (top == -1){
+            System.out.println("Stack is Empty...!");
+        }
+        return arr[top--];
+    }
+
     public void print(){
 
         System.out.print("[");
