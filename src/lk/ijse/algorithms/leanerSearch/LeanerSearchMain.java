@@ -1,4 +1,4 @@
-package lk.ijse.algorithms.leanerSearch.LeanerSe;
+package lk.ijse.algorithms.leanerSearch;
 
 public class LeanerSearchMain {
 
