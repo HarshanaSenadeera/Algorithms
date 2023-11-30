@@ -14,6 +14,7 @@ public class StackMain {
         stack.push(50);
 
         stack.pop();
+        stack.peek();
 
         stack.print();
     }

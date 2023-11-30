@@ -23,6 +23,14 @@ public class Stack {
         return arr[top--];
     }
 
+    public int peek(){
+        if (top == -1){
+            System.out.println("Stack is Empty...!");
+        }
+        System.out.println("Peek Value is: "+arr[top]);
+        return arr[top];
+    }
+
     public void print(){
 
         System.out.print("[");
