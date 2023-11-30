@@ -31,6 +31,10 @@ public class Stack {
         return arr[top];
     }
 
+    public void clear(){
+        top=-1;
+    }
+
     public void print(){
 
         System.out.print("[");

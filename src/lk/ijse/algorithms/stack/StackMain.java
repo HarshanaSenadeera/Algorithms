@@ -16,6 +16,8 @@ public class StackMain {
         stack.pop();
         stack.peek();
 
+        stack.clear();
+
         stack.print();
     }
 }
