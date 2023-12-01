@@ -37,6 +37,15 @@ public class Queue {
         return temp;
     }
 
+    public void print(){
+
+        for (int i = front; i <=rear ; i++) {
+            System.out.print("[");
+            System.out.print(arr[i]+" ,");
+        }
+        System.out.println("\b]");
+    }
+
 
 
 
