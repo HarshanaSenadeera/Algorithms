@@ -39,8 +39,9 @@ public class Queue {
 
     public void print(){
 
+        System.out.print("[");
         for (int i = front; i <=rear ; i++) {
-            System.out.print("[");
+
             System.out.print(arr[i]+" ,");
         }
         System.out.println("\b]");
