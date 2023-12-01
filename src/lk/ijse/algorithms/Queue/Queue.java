@@ -37,6 +37,12 @@ public class Queue {
         return temp;
     }
 
+    public int peek(){
+        if (index == 0){
+            System.out.println("Stack is empty...!");
+        }
+        return arr[front];
+    }
     public void print(){
 
         System.out.print("[");

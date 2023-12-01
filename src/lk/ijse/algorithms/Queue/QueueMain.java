@@ -14,6 +14,9 @@ public class QueueMain {
 
         queue.deQueue();
 
+        int peek = queue.peek();
+        System.out.println(peek);
+
         queue.print();
     }
 }
