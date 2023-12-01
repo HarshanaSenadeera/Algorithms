@@ -18,11 +18,23 @@ public class Queue {
         if (index == arr.length){
             System.out.println("Queue is full...!");
         }
-        if (index == arr.length-1){
+        if (rear == arr.length-1){
             rear = -1;
         }
         arr[++rear]=data;
         index++;
+    }
+
+    public int deQueue(){
+        if (index == 0){
+            System.out.println("Stack is empty...!");
+        }
+        int temp=arr[front++];
+        if (front == arr.length){
+            front=0;
+        }
+        index--;
+        return temp;
     }
 
 
